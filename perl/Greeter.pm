@@ -16,7 +16,7 @@ package Greeter;
 	sub greet {
 		my ($self) = @_;
 		
-		return qq("$self->{'greeting'}");
+		return $self->{'greeting'};
 	}
 }
 
